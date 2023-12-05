@@ -19,4 +19,4 @@ const producto = {
 
 //Accedemos con notacion de punto
 console.log(`El ${producto.nombre} tiene un precio de ${producto.precio}`)
-console.log(``)
+console.log(`Medidas ${producto.informacion.caracteristicas.medida.alto} de alto y ${producto.informacion.caracteristicas.medida.ancho} de ancho` )
